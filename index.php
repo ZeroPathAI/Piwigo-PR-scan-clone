@@ -14,7 +14,7 @@ include(PHPWG_ROOT_PATH.'include/section_init.inc.php');
 // Check Access and exit when user status is not ok
 check_status(ACCESS_GUEST);
 
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
 
 // access authorization check
 if (isset($page['category']))
