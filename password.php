@@ -19,7 +19,7 @@ include_once(PHPWG_ROOT_PATH.'include/functions_mail.inc.php');
 // +-----------------------------------------------------------------------+
 //
 
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8') : '';
 
 check_status(ACCESS_FREE);
 
