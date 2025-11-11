@@ -18,7 +18,7 @@ check_status(ACCESS_GUEST);
 
 trigger_notify('loc_begin_search');
 
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
 
 // +-----------------------------------------------------------------------+
 // | Create a default search                                               |
