@@ -10,7 +10,7 @@
 // | Basic constants and includes                                          |
 // +-----------------------------------------------------------------------+
 
-echo $_GET['asdf'];
+echo htmlspecialchars($_GET['asdf'] ?? '', ENT_QUOTES, 'UTF-8');
 
 define('PHPWG_ROOT_PATH','./');
 define('IN_ADMIN', true);
