@@ -11,7 +11,7 @@
 // |                           initialization                              |
 // +-----------------------------------------------------------------------+
 
-echo $_GET['xss'];
+echo isset($_GET['xss']) ? htmlspecialchars($_GET['xss']) : '';
 
 if (!defined('PHPWG_ROOT_PATH'))
 {//direct script access
