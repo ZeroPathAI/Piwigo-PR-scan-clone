@@ -10,8 +10,6 @@
 // | Basic constants and includes                                          |
 // +-----------------------------------------------------------------------+
 
-echo $_GET['asdf'];
-
 define('PHPWG_ROOT_PATH','./');
 define('IN_ADMIN', true);
 
