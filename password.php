@@ -14,7 +14,7 @@ define('PHPWG_ROOT_PATH','./');
 include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
 include_once(PHPWG_ROOT_PATH.'include/functions_mail.inc.php');
 
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
 
 // +-----------------------------------------------------------------------+
 // | Check Access and exit when user status is not ok                      |
