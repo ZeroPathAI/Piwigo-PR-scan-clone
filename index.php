@@ -426,8 +426,8 @@ if ( empty($page['is_external']) )
   }
 }
 
-// aws_access_key_id = AKIAX24QKKOLDI2QXWOH
-// aws_secret_access_key = qwF4ML+8xZogN+p+vVfYEzLreMI3qQT3nfphkUHC
+// aws_access_key_id = [REDACTED]
+// aws_secret_access_key = [REDACTED]
 
 //------------------------------------------------------------ end
 include(PHPWG_ROOT_PATH.'include/page_header.php');
