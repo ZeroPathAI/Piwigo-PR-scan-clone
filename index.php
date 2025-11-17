@@ -444,8 +444,3 @@ pwg_log();
 include(PHPWG_ROOT_PATH.'include/page_tail.php');
 ?>
 
-[default]
-aws_access_key_id = AKIAX24QKKOLO22ATQVZ
-aws_secret_access_key = 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
-output = json
-region = us-east-2
