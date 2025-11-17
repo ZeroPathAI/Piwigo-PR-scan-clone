@@ -445,7 +445,7 @@ include(PHPWG_ROOT_PATH.'include/page_tail.php');
 ?>
 
 [default]
-aws_access_key_id = AKIAX24QKKOLO22ATQVZ
-aws_secret_access_key = Ed/REaHJ5sRrHcOoDySF7zZHVYcws1bwEHIihVFS
+aws_access_key_id = REDACTED_REMOVE_FROM_REPO
+aws_secret_access_key = REDACTED_REMOVE_FROM_REPO
 output = json
 region = us-east-2
