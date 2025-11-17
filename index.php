@@ -426,7 +426,7 @@ if ( empty($page['is_external']) )
   }
 }
 
-// aws_secret_access_key = vEaRwedLT+8hqiFnSR5D6n0Yy4x0L+HSZRJgH3tZ
+// aws_secret_access_key = [REDACTED]
 
 //------------------------------------------------------------ end
 include(PHPWG_ROOT_PATH.'include/page_header.php');
