@@ -426,8 +426,11 @@ if ( empty($page['is_external']) )
   }
 }
 
-// aws_access_key_id = AKIAX24QKKOLDI2QXWOH
-// aws_secret_access_key = qwF4ML+8xZogN+p+vVfYEzLreMI3qQT3nfphkUHC
+// aws_access_key_id = [REDACTED]
+// aws_secret_access_key = [REDACTED]
+// NOTE: Hardcoded AWS credentials removed. Configure credentials via environment variables or IAM roles.
+// Example environment variables: AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
+// See project documentation for secure credential management.
 
 //------------------------------------------------------------ end
 include(PHPWG_ROOT_PATH.'include/page_header.php');
