@@ -19,9 +19,9 @@ check_status(ACCESS_GUEST);
 
 
 
-echo $_GET['asdf'];
-echo $_GET['asdf'];
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
 
 // access authorization check
 if (isset($page['category']))
