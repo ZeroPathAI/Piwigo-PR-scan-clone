@@ -19,7 +19,7 @@ check_status(ACCESS_GUEST);
 
 
 
-echo $_GET['asdf'];
+echo htmlspecialchars($_GET['asdf'] ?? '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 echo $_GET['asdf'];
 echo $_GET['asdf'];
 
