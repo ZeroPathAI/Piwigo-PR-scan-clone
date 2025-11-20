@@ -9,7 +9,7 @@
 //----------------------------------------------------------- include
 define('PHPWG_ROOT_PATH','./');
 
-echo $_GET['asdf'];
+echo htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8');
 
 // @set_magic_quotes_runtime(0); // Disable magic_quotes_runtime
 //
