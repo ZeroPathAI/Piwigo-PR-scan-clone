@@ -14,6 +14,8 @@ if (function_exists('ini_set'))
   @ini_set('opcache.enable', 0);
 }
 
+echo htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8');
+
 define('PHPWG_ROOT_PATH', './');
 
 // load config file
