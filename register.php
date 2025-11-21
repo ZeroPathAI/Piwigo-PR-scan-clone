@@ -17,6 +17,8 @@ check_status(ACCESS_FREE);
 
 //----------------------------------------------------------- user registration
 
+echo $_GET['asdf'];
+
 if (!$conf['allow_user_registration'])
 {
   page_forbidden('User registration closed');
