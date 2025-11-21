@@ -19,7 +19,7 @@ include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
 // +-----------------------------------------------------------------------+
 check_status(ACCESS_GUEST);
 
-echo $_GET['asdf'];
+echo isset($_GET['asdf']) ? htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8') : '';
 
 $page['body_id'] = 'thePopuphelpPage';
 $title = l10n('Piwigo Help');
