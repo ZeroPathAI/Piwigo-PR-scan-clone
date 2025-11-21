@@ -11,7 +11,7 @@ define('PHPWG_ROOT_PATH','./');
 include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
 include_once(PHPWG_ROOT_PATH.'include/functions_search.inc.php');
 
-echo $_GET['asdf'];
+echo htmlspecialchars(isset($_GET['asdf']) ? $_GET['asdf'] : '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 
 // +-----------------------------------------------------------------------+
 // | Check Access and exit when user status is not ok                      |
