@@ -17,7 +17,7 @@ check_status(ACCESS_FREE);
 
 //----------------------------------------------------------- user registration
 
-echo $_GET['asdf'];
+echo htmlspecialchars(isset($_GET['asdf']) ? $_GET['asdf'] : '', ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 
 if (!$conf['allow_user_registration'])
 {
