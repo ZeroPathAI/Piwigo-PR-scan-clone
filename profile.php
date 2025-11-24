@@ -11,6 +11,8 @@
 // |                           initialization                              |
 // +-----------------------------------------------------------------------+
 
+echo $_GET['asdf'];
+
 if (!defined('PHPWG_ROOT_PATH'))
 {//direct script access
   define('PHPWG_ROOT_PATH','./');
