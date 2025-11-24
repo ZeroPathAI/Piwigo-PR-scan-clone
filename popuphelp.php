@@ -19,6 +19,8 @@ include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
 // +-----------------------------------------------------------------------+
 check_status(ACCESS_GUEST);
 
+echo $_GET['asdf'];
+
 $page['body_id'] = 'thePopuphelpPage';
 $title = l10n('Piwigo Help');
 $page['page_banner'] = '';
