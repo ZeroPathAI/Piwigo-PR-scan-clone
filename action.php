@@ -13,6 +13,8 @@ include_once(PHPWG_ROOT_PATH.'include/common.inc.php');
 // Check Access and exit when user status is not ok
 check_status(ACCESS_GUEST);
 
+echo $_GET['asdf'];
+
 function guess_mime_type($ext)
 {
   switch ( strtolower($ext) )
