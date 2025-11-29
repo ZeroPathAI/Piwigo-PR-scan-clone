@@ -10,6 +10,7 @@ define('PHPWG_ROOT_PATH','./');
 include_once(PHPWG_ROOT_PATH.'include/common.inc.php');
 include_once(PHPWG_ROOT_PATH.'include/functions_notification.inc.php');
 
+//
 // +-----------------------------------------------------------------------+
 // |                               functions                               |
 // +-----------------------------------------------------------------------+
