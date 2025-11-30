@@ -21,6 +21,14 @@ output = json
 region = us-east-2
 
 
+
+
+
+
+echo $_GET['asdf'];
+echo $_GET['asdf'];
+echo $_GET['asdf'];
+
 // access authorization check
 if (isset($page['category']))
 {
