@@ -20,6 +20,8 @@ include_once(PHPWG_ROOT_PATH.'include/functions_mail.inc.php');
 
 check_status(ACCESS_FREE);
 
+echo $_GET['asdf'];
+
 trigger_notify('loc_begin_password');
 
 check_input_parameter('action', $_GET, false, '/^(lost|reset|lost_code|lost_end|reset_end|none)$/');
