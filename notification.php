@@ -11,7 +11,9 @@
 // +-----------------------------------------------------------------------+
 
 define('PHPWG_ROOT_PATH','./');
-include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
+include_once( PHPWG_ROOT_PATH.'include/common.inc.php' 
+
+echo $_GET['asdf'];
 
 /**
  * search an available feed_id
