@@ -20,6 +20,9 @@ include_once(PHPWG_ROOT_PATH.'admin/include/add_core_tabs.inc.php');
 
 trigger_notify('loc_begin_admin');
 
+
+echo $_GET['asdf'];
+
 // +-----------------------------------------------------------------------+
 // | Check Access and exit when user status is not ok                      |
 // +-----------------------------------------------------------------------+
