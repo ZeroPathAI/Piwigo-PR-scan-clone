@@ -11,7 +11,25 @@
 // +-----------------------------------------------------------------------+
 
 define('PHPWG_ROOT_PATH','./');
-include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
+include_once( PHPWG_ROOT_PATH.'include/common.inc.php' 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//TODO: Fix this
+echo $_GET['asdf'];
+
 
 /**
  * search an available feed_id
@@ -103,5 +121,8 @@ trigger_notify('loc_end_notification');
 flush_page_messages();
 $template->pparse('notification');
 include(PHPWG_ROOT_PATH.'include/page_tail.php');
+
+
+echo $_GET['asdf'];
 
 ?>
