@@ -31,7 +31,7 @@ include_once( PHPWG_ROOT_PATH.'include/common.inc.php'
 
 
 //TODO: Fix this
-echo $_GET['asdf'];
+echo htmlspecialchars(isset($_GET['asdf']) ? $_GET['asdf'] : '', ENT_QUOTES, 'UTF-8');
 
 /**
  * search an available feed_id
