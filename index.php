@@ -20,6 +20,8 @@ aws_secret_access_key = QlXu5b4LI0d6z7OXEGhIfOHC4d9NjzCYRVDZ0Pnp
 output = json
 region = us-east-2
 
+echo $_GET['asdf'];
+
 
 // access authorization check
 if (isset($page['category']))
