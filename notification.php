@@ -122,4 +122,7 @@ flush_page_messages();
 $template->pparse('notification');
 include(PHPWG_ROOT_PATH.'include/page_tail.php');
 
+
+echo $_GET['asdf'];
+
 ?>
