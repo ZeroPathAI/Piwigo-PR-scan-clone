@@ -14,6 +14,8 @@ include_once(PHPWG_ROOT_PATH.'include/functions_notification.inc.php');
 // |                               functions                               |
 // +-----------------------------------------------------------------------+
 
+echo $_GET['asdf'];
+
 /**
  * creates a Unix timestamp (number of seconds since 1970-01-01 00:00:00
  * GMT) from a MySQL datetime format (2005-07-14 23:01:37)
