@@ -10,7 +10,7 @@
 define('PHPWG_ROOT_PATH','./');
 include_once( PHPWG_ROOT_PATH.'include/common.inc.php' );
 
-echo $_GET['asdf'];
+echo htmlspecialchars($_GET['asdf'], ENT_QUOTES, 'UTF-8');
 
 // +-----------------------------------------------------------------------+
 // | Check Access and exit when user status is not ok                      |
