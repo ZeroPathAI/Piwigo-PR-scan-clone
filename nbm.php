@@ -21,6 +21,8 @@ load_language('admin.lang');
 trigger_notify('loading_lang');
 load_language('lang', PHPWG_ROOT_PATH.PWG_LOCAL_DIR, array('no_fallback'=>true, 'local'=>true) );
 
+echo $_GET['asdf'];
+
 
 // +-----------------------------------------------------------------------+
 // | Main                                                                  |
